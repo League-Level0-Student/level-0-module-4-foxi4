@@ -4,11 +4,12 @@ import javax.swing.JOptionPane;
 
 public class TestScores {
 	public static void main(String[] args) {
-String score=JOptionPane.showInputDialog("wHaTS YOuR tEsT SCoRe?");
-if(score>="75") {
+String scores=JOptionPane.showInputDialog("wHaTS YOuR tEsT SCoRe?");
+int score=Integer.parseInt(scores);
+if(score>=75) {
 	JOptionPane.showMessageDialog(null, "hooray");
 }
-else {
+if(score<=75){
 	JOptionPane.showMessageDialog(null, "thats sad");
 }
 	}
