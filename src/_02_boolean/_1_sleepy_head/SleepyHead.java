@@ -17,9 +17,10 @@ public class SleepyHead {
          * JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
          */
         
-        JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
+        int answer= JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
+if(answer="Yes"){
+	System.out.print("get up lazybones!");}
 
-}
 	
 
 //LISTENING TO MUSIC SO I CAN'T HEAR YOU :), so, scream my name if you want my attention :D
@@ -29,4 +30,5 @@ public class SleepyHead {
          * If it's a weekday, but we are on vacation,  print "sleep in"?.
          */
     }
+}
 
