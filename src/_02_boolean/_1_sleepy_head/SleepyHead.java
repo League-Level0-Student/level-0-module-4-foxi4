@@ -18,8 +18,18 @@ public class SleepyHead {
          */
         
         int answer= JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
-if(answer="Yes"){
-	System.out.print("get up lazybones!");}
+if(answer==0){
+
+	int answer2 = JOptionPane.showConfirmDialog(null, "Is it vacation then?","TITLE OK",JOptionPane.YES_NO_OPTION);
+	if(answer2==0) {
+		System.out.print("yey u can sleep in :D");
+	}
+	if(answer2==1) {
+		System.out.print("GET UP YOU LAZY POTATO");
+	}}
+if(answer==1) {
+	System.out.print("okeh you can sleep in then");
+}
 
 	
 
@@ -29,6 +39,7 @@ if(answer="Yes"){
          * If it's a weekday, print "get up lazybones!"? 
          * If it's a weekday, but we are on vacation,  print "sleep in"?.
          */
-    }
-}
+    
+    }}
+//BTW I CAN'T HEAR ANYTHING ANYONE IS SAYING :DDDD
 
